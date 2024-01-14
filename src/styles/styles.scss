@@ -1,0 +1,61 @@
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+$offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+
+// // Include functions first
+// @import "bootstrap/scss/functions";
+
+// Customize some defaults
+$body-color: #333;
+$body-bg: #fff;
+$border-radius: .4rem;
+$success: #7952b3;
+
+$font-family-base: 'playfair-display', serif;
+$line-height-base: 2.4;
+$border-radius: 0;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+
+h1, h2, h3, h4, .h1, .h2, .h3, .h4, .card-title {
+  font-family: "josefin-sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.main-film > section {
+  padding: 10rem 0 5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ABABAB;
+  background-image: url("/img/ring.png");
+  background-repeat: no-repeat;
+  background-position: center 5rem;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-gray {
+  background-color: #111111;
+}
+
+.text-off-white,
+.card.border-light.bg-transparent {
+  color: #ABABAB;
+}
+
+.film-poster {
+  height: 75vh;
+}
+
+.iframe-container {
+  aspect-ratio: 16/9;
+}
