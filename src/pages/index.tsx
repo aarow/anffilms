@@ -206,7 +206,6 @@ export default function Home() {
             &copy; 2024 Alexander Neville Foundation
           </section>
         </footer>
-        <script type="module" src="./js/main.js"></script>
       </>
     </>
   );
