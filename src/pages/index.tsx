@@ -39,22 +39,10 @@ export default function Home() {
                       A Quick Note
                     </h2>
                     <p className="text-center text-off-white">
-                      <strong className="fst-italic text-white">Come Back Home</strong>
-                      Delves into...
+                      <strong className="fst-italic text-white">Come Back Home</strong> is a trek through the ever growing illicit drug industry that is reshaping American life, destroying people, and changing history.
                     </p>
                     <p className="text-center text-off-white">
-                      The Alexander Neville Foundation is an volunteer run
-                      organization, we pride ourselves on providing quality low cost
-                      or no cost drug prevention and social media harms awareness
-                      presentations to schools and communities. This education ins
-                      incredibly omportant and we would never want money to be the
-                      reason someone does not have us speak. A little bit of
-                      information would have gone a long way in our home, our goal
-                      is to prepare you and your family for the worst. This issue my
-                      not happen in your home but the reality that you/your child
-                      will know some one this has impacted. For those that can
-                      donate we greatly appreciate it, your generosity help us
-                      provide the education for free
+                      A little bit of information would have gone a long way in our home. That is why we want to prepare you and your family. This may never happen in your home, but eventually you will know someone this issue has impacted. Alexander Neville Foundation is a volunteer run organization. We provide quality, low or no cost, drug prevention and social media harms awareness presentations to schools  and  communities. To continue offering these programs and services, please consider making a donation. Thank you.
                     </p>
                   </div>
                 </div>
@@ -142,7 +130,7 @@ export default function Home() {
                 <h2 className="display-4 text-center mb-5 text-white">Other Films</h2>
                 <div className="row">
                   <div className="col-lg-8 offset-lg-2">
-                  <Films />
+                    <Films />
                   </div>
                 </div>
               </div>

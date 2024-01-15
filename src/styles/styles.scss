@@ -12,7 +12,7 @@ $body-color: #333;
 $body-bg: #fff;
 $border-radius: .4rem;
 $success: #7952b3;
-$color-primary: #CBAA6D;
+$primary: #CBAA6D;
 
 $font-family-base: 'playfair-display', serif;
 $line-height-base: 2.4;
@@ -21,12 +21,16 @@ $border-radius: 0;
 @import "bootstrap/scss/bootstrap.scss";
 
 
-h1, h2, h3, h4, .h1, .h2, .h3, .h4, .card-title {
+h1, h2, h3, h4, .h1, .h2, .h3, .h4, .card-title, .btn:not(.btn-link) {
   font-family: "josefin-sans", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 6px;
+}
+
+.btn:not(.btn-link) {
+  letter-spacing: 1px;
 }
 
 .main-film > section {
