@@ -11,17 +11,17 @@ export default <TeamMember[]> [
     id: '0',
     name: 'Yareni',
     imagePath: '/img/cast/cast_0.jpg',
-    bio: 'lorem ipsum'
+    bio: `Im 20 years old. I’m in college pursuing my masters for psychology. I’m passionate about mental health and personal wellbeing. I’m a huge believer in self care, and reaching out for help when needed. As well as living life with an open heart and kindness towards others and yourself.`
   },
   {
     id: '1',
     name: 'Destiny',
     imagePath: '/img/cast/cast_1.jpg',
-    bio: 'lorem ipsum'
+    bio: `I'm 13 years old. I'm passionate about educating the youth about the dangers of fentanyl. I like playing on my computer with my friends and playing my bass. I enjoy going to concerts and theme parks.`,
   },
   {
     id: '2',
-    name: 'Jaylese',
+    name: 'Jaylyse',
     imagePath: '/img/cast/cast_2.jpg',
     bio: 'lorem ipsum'
   },

@@ -11,6 +11,7 @@ import ExampleComponents from "@/components/ExampleComponents";
 import Team from "@/components/common/Team/Team";
 import cast from "@/data/cast";
 import FilmPoster from "@/components/FilmPoster";
+import Films from "@/components/common/Films/Films";
 
 export default function Home() {
   const [show, setShow] = useState(false);
@@ -59,7 +60,7 @@ export default function Home() {
                 </div>
               </div>
             </section>
-            <section className="watch-film bg-black">
+            {/* <section className="watch-film bg-black">
               <div className="container">
                 <h2 className="display-4 text-center mb-5 text-white">
                   Come Back Home
@@ -78,10 +79,10 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
             <section className="film-cast bg-gray">
               <div className="container">
-                <h2 className="display-4 text-center mb-5 text-white">Film Cast</h2>
+                <h2 className="display-4 text-center mb-5 text-white">Youth in the Film</h2>
                 <Team team={cast} />
               </div>
             </section>
@@ -94,11 +95,11 @@ export default function Home() {
                   <div className="col">
                     <div className="card h-100">
                       <a
-                        href="https://www.discoveryeducation.com/details/drug-enforcement-administration-and-discovery-education-present-a-new-virtual-field-trip-empowering-students-to-address-substance-misuse/"
+                        href="https://operationprevention.com/virtual-field-trip"
                       >
-                        <div className="d-flex align-items-center h-100 w-100 p-5">
+                        <div className="d-flex align-items-center h-100 w-100">
                           <img
-                            src="/img/resources/operation-prevention-logo.png"
+                            src="/img/resources/ounce-of-prevention-virtual-field-trip.png"
                             className="w-100 m-auto"
                             alt="Operation Prevention - Discovery Education"
                           />
@@ -141,55 +142,7 @@ export default function Home() {
                 <h2 className="display-4 text-center mb-5 text-white">Other Films</h2>
                 <div className="row">
                   <div className="col-lg-8 offset-lg-2">
-                    <div id="other-films-carousel" className="carousel slide">
-                      <div className="carousel-inner">
-                        <div className="carousel-item active">
-                          <img
-                            src="https://placehold.co/1920x1080"
-                            className="d-block w-100"
-                            alt="..."
-                          />
-                        </div>
-                        <div className="carousel-item">
-                          <img
-                            src="https://placehold.co/1920x1080"
-                            className="d-block w-100"
-                            alt="..."
-                          />
-                        </div>
-                        <div className="carousel-item">
-                          <img
-                            src="https://placehold.co/1920x1080"
-                            className="d-block w-100"
-                            alt="..."
-                          />
-                        </div>
-                      </div>
-                      <button
-                        className="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#other-films-carousel"
-                        data-bs-slide="prev"
-                      >
-                        <span
-                          className="carousel-control-prev-icon"
-                          aria-hidden="true"
-                        ></span>
-                        <span className="visually-hidden">Previous</span>
-                      </button>
-                      <button
-                        className="carousel-control-next"
-                        type="button"
-                        data-bs-target="#other-films-carousel"
-                        data-bs-slide="next"
-                      >
-                        <span className="visually-hidden">Next</span>
-                        <span
-                          className="carousel-control-next-icon"
-                          aria-hidden="true"
-                        ></span>
-                      </button>
-                    </div>
+                  <Films />
                   </div>
                 </div>
               </div>
