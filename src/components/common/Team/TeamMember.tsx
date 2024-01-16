@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
 
@@ -34,7 +35,12 @@ export default function TeamMember({
         <Modal.Body>
           <div className="container">
             <div className="row">
-              <div className="col-lg-8 offset-lg-2" dangerouslySetInnerHTML={{ __html: bio }} />
+              <div className="col-lg-2">
+                <Image src={imagePath} alt={name} width={128} height={128} />
+              </div>
+              <div className="col-lg-8 ">
+                <div dangerouslySetInnerHTML={{ __html: bio }} />
+              </div>
             </div>
           </div>
         </Modal.Body>

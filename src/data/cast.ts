@@ -11,13 +11,13 @@ export default <TeamMember[]> [
     id: '0',
     name: 'Yareni',
     imagePath: '/img/cast/cast_0.jpg',
-    bio: `Im 20 years old. I’m in college pursuing my masters for psychology. I’m passionate about mental health and personal wellbeing. I’m a huge believer in self care, and reaching out for help when needed. As well as living life with an open heart and kindness towards others and yourself.`
+    bio: `<p>I'm 20 years old. I'm in college pursuing my masters for psychology. I'm passionate about mental health and personal wellbeing. I'm a huge believer in self care, and reaching out for help when needed. As well as living life with an open heart and kindness towards others and yourself.</p>`
   },
   {
     id: '1',
     name: 'Destiny',
     imagePath: '/img/cast/cast_1.jpg',
-    bio: `I'm 13 years old. I'm passionate about educating the youth about the dangers of fentanyl. I like playing on my computer with my friends and playing my bass. I enjoy going to concerts and theme parks.`,
+    bio: `<p>I'm 13 years old. I'm passionate about educating the youth about the dangers of fentanyl. I like playing on my computer with my friends and playing my bass. I enjoy going to concerts and theme parks.</p>`,
   },
   {
     id: '2',
@@ -29,7 +29,7 @@ export default <TeamMember[]> [
     id: '3',
     name: 'Eden',
     imagePath: '/img/cast/cast_3.jpg',
-    bio: 'Eden lost her brother, Alexander, to fentanyl poisoning in June of 2020. Since then, she has educated herself on the dangers of fentanyl and social media and assists in awareness efforts, including art and graphic design work. Her projects includes graphics for the Alexander Neville Foundation and an art campaign with Facing Fentanyl and the Trucking Cares Foundation. In her free time, Eden loves music. She is an active member of her school’s band program, accomplished pianist, and drummer for a cover band of the group, Queen. Along side music, one of her greatest passions is theatre. She has performed in over thirty productions since the age of six and enjoys comedic roles and going out of her comfort zone. Eden is also a blacksmith and one day hopes to possibly build a knife making business.'
+    bio: `<p>Eden lost her brother, Alexander, to fentanyl poisoning in June of 2020. Since then, she has educated herself on the dangers of fentanyl and social media and assists in awareness efforts, including art and graphic design work. Her projects includes graphics for the Alexander Neville Foundation and an art campaign with Facing Fentanyl and the Trucking Cares Foundation. In her free time, Eden loves music. She is an active member of her school's band program, accomplished pianist, and drummer for a cover band of the group, Queen. Along side music, one of her greatest passions is theatre. She has performed in over thirty productions since the age of six and enjoys comedic roles and going out of her comfort zone. Eden is also a blacksmith and one day hopes to possibly build a knife making business.</p>`
   },
   {
     id: '4',
@@ -41,7 +41,7 @@ export default <TeamMember[]> [
     id: '5',
     name: 'Ayida',
     imagePath: '/img/cast/cast_5.jpg',
-    bio: 'Ayida is 19 and lives in Charleston, South Carolina with her mother. She is a second year student at Massachusetts College of Art and Design in Boston studying Architecture. She moved from Redondo Beach, California in 2015 to South Carolina. Ayida lived with Kinhthi, her older brother, until he moved back to Los Angeles when he was 17. He died there at 19 in 2020.'
+    bio: '<p>Ayida is 19 and lives in Charleston, South Carolina with her mother. She is a second year student at Massachusetts College of Art and Design in Boston studying Architecture. She moved from Redondo Beach, California in 2015 to South Carolina. Ayida lived with Kinhthi, her older brother, until he moved back to Los Angeles when he was 17. He died there at 19 in 2020.</p>'
   },
   {
     id: '6',
