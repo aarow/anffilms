@@ -10,13 +10,15 @@ $offcanvas-box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
 // Customize some defaults
 $body-color: #333;
 $body-bg: #fff;
-$border-radius: .4rem;
+$border-radius: 0;
 $success: #7952b3;
 $primary: #CBAA6D;
 
 $font-family-base: 'playfair-display', serif;
 $line-height-base: 2.4;
 $border-radius: 0;
+$border-radius-sm: 0;
+$border-radius-lg: 0;
 $display-line-height: 1;
 
 @import "bootstrap/scss/bootstrap.scss";
