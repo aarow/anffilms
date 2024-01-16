@@ -48,26 +48,6 @@ export default function Home() {
                 </div>
               </div>
             </section>
-            {/* <section className="watch-film bg-black">
-              <div className="container">
-                <h2 className="display-4 text-center mb-5 text-white">
-                  Come Back Home
-                </h2>
-                <div className="row">
-                  <div className="col-lg-8 offset-lg-2">
-                    <div className="iframe-container">
-                      <iframe
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/kdedgBKsLGk?si=7nRstBQB1_YicDFI"
-                        title="YouTube video player"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      ></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section> */}
             <section className="film-cast bg-gray">
               <div className="container">
                 <h2 className="display-4 text-center mb-5 text-white">Youth in the Film</h2>
@@ -77,11 +57,17 @@ export default function Home() {
             <section className="testimonials bg-black">
               <div className="container">
                 <h2 className="display-4 text-center mb-5 text-white">
-                  Film Resources
+                  Free Resources
                 </h2>
+                <div className="row mb-5">
+                  <div className="col-lg-8 offset-lg-2">
+                    <p>These resources complement the film, <strong>Come Back Home</strong>. These are organizations that ANF personally endorses for material in the classroom and other areas of life.</p>
+                  </div>
+                </div>
+               
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
                   <div className="col">
-                    <div className="card h-100">
+                    <div className="card h-100 border-0">
                       <a
                         href="https://operationprevention.com/virtual-field-trip"
                       >
@@ -94,10 +80,8 @@ export default function Home() {
                         </div>
                       </a>
                       <div className="card-body">
-                        <p className="card-text">
-                          This is a wider card with supporting text below as a
-                          natural lead-in to additional content. This content is a
-                          little bit longer.
+                        <p className="card-text lh-sm">
+                          The Alexander Neville foundation is proud to have partnered with the DEA and Discovery Education for their Virtual field trip. This education is great for the classroom.
                         </p>
                       </div>
                     </div>
@@ -114,10 +98,8 @@ export default function Home() {
                         </div>
                       </a>
                       <div className="card-body">
-                        <p className="card-text">
-                          This is a wider card with supporting text below as a
-                          natural lead-in to additional content. This content is a
-                          little bit longer.
+                        <p className="card-text lh-sm">
+                          ANF is part of the Substance abuse coalition leaders of Arizona, We are the fiscal agent for the Drug Free Communities grant recipient coalition The Southeast Valley Community Alliance. We are thrilled to bring SACLAZ education to the San Tan Valley, Queen Creek, and Florence communities.
                         </p>
                       </div>
                     </div>
@@ -127,7 +109,9 @@ export default function Home() {
             </section>
             <section className="other-movies bg-gray">
               <div className="container">
-                <h2 className="display-4 text-center mb-5 text-white">Other Films</h2>
+                <h2 className="display-4 text-center mb-5 text-white">
+                  Our Other Films
+                </h2>
                 <div className="row">
                   <div className="col-lg-8 offset-lg-2">
                     <Films />
