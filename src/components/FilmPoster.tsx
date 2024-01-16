@@ -19,7 +19,7 @@ export default function FilmPoster() {
       />
       <div className="position-relative text-center">
         <h1 className="display-1 text-white bg-black p-3 filmTitle">Come Back Home</h1>
-        <Button size="lg" onClick={() => setShow(true)}>Watch Film</Button>
+        <Button size="lg" onClick={() => setShow(true)} style={{ border: '2px solid black'}}>Watch Film</Button>
         <Modal show={show} fullscreen={true} data-bs-theme="dark">
           <Modal.Header className="bg-black border-0">
             <CloseButton onClick={() => setShow(false)} />
