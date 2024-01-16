@@ -1,4 +1,3 @@
-
 type TeamMember = {
   id: string;
   name: string;
