@@ -17,8 +17,19 @@ $primary: #CBAA6D;
 $font-family-base: 'playfair-display', serif;
 $line-height-base: 2.4;
 $border-radius: 0;
+$display-line-height: 1;
 
 @import "bootstrap/scss/bootstrap.scss";
+
+@font-face {
+  font-family: 'Molde Condensed';
+  src: local('Molde Condensed Bold'), local('Molde-Condensed-Bold'),
+      url('/fonts/Molde-Condensed-Bold.woff2') format('woff2'),
+      url('/fonts/Molde-Condensed-Bold.woff') format('woff'),
+      url('/fonts/Molde-Condensed-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
 
 
 h1, h2, h3, h4, .h1, .h2, .h3, .h4, .card-title, .btn:not(.btn-link) {
@@ -27,6 +38,10 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4, .card-title, .btn:not(.btn-link) {
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 6px;
+}
+
+.filmTitle {
+  font-family: 'Molde Condensed', "josefin-sans", sans-serif;
 }
 
 .btn:not(.btn-link) {
@@ -85,6 +100,4 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4, .card-title, .btn:not(.btn-link) {
       object-fit: cover;
     }
   }
-
-  
 }
