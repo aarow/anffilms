@@ -24,11 +24,13 @@ export default function FilmPoster() {
           <Modal.Header className="bg-black border-0">
             <CloseButton onClick={() => setShow(false)} />
           </Modal.Header>
+          <Modal.Body className="w-100 px-0 bg-black">
             <ReactPlayer
               url="https://www.youtube.com/embed/kdedgBKsLGk?si=7nRstBQB1_YicDFI"
               width="100%"
               height="100%"
             />
+          </Modal.Body>
         </Modal>
       </div>
     </div>
