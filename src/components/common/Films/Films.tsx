@@ -24,7 +24,7 @@ function Films() {
         <Carousel.Caption>
           <h3>The Safest Place</h3>
           <p className="lh-1">
-            <small>A wave of fentanyl-laced drugs makes Snapchat a game of Russian roulette, ending many young teens' lives. A growing movement of bereaved families says America values corporate profits over children's lives.</small></p>
+            <small>A wave of fentanyl-laced drugs makes Snapchat a game of Russian roulette, ending many young teens&apos;s lives. A growing movement of bereaved families says America values corporate profits over children&apos;s lives.</small></p>
           <p>(coming soon)</p>
         </Carousel.Caption>
       </Carousel.Item>
