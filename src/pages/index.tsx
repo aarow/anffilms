@@ -167,9 +167,9 @@ export default function Home() {
                   <h2 className="mb-5 text-center text-white">Contact Us</h2>
                   <ul className="list-unstyled">
                     <li><a href="mailto:info@anfhelp.org">info@anfhelp.org</a></li>
-                    <li><a href="https://instagram.com">Instagram</a></li>
-                    <li><a href="https://instagram.com">Facebook</a></li>
-                    <li><a href="https://instagram.com">X</a></li>
+                    <li><a href="https://www.instagram.com/anfhelp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/ANFHELP">Facebook</a></li>
+                    <li><a href="https://x.com/ANFHelp?s=20">X</a></li>
                   </ul>
                 </div>
               </div>
