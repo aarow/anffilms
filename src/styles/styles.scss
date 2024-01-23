@@ -103,3 +103,8 @@ h1, h2, h3, h4, .h1, .h2, .h3, .h4, .card-title, .btn:not(.btn-link) {
     }
   }
 }
+
+.hover-brightness:hover {
+  transition: all 250ms;
+  filter: brightness(1.5);
+}

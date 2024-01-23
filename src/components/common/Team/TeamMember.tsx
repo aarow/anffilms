@@ -15,7 +15,7 @@ export default function TeamMember({
   const [show, setShow] = useState(false);
   return (
     <>
-      <div className="card text-white">
+      <div className="card text-white hover-brightness">
         <img src={imagePath} alt={name} className="card-img" />
         <div
           className="card-img-overlay d-flex flex-column justify-content-end mb-1 text-center"
