@@ -10,13 +10,13 @@ export default <TeamMember[]> [
     id: '0',
     name: 'Yareni',
     imagePath: '/img/cast/cast_0.jpg',
-    bio: `<p>I'm 20 years old. I'm in college pursuing my masters for psychology. I'm passionate about mental health and personal wellbeing. I'm a huge believer in self care, and reaching out for help when needed. As well as living life with an open heart and kindness towards others and yourself.</p>`
+    bio: `<p>Yareni Pelayo is 20 years old. Yareni is attending college and pursuing her master's in psychology. She is passionate about mental health, healing our communities, and personal well-being. Yareni is a huge believer in self-care, and reaching out for help when needed. As well as living life with an open heart and kindness towards others and yourself. At the age of 18 Yareni lost her brother Deenilson to fentanyl poisoning. With the tragic loss of her brother and the everyday battle with grief, Yareni has remained kind and compassionate in this world taking those big steps to spread awareness of the deadly dangers of fentanyl.</p>`
   },
   {
     id: '1',
     name: 'Destiny',
     imagePath: '/img/cast/cast_1.jpg',
-    bio: `<p>I'm 13 years old. I'm passionate about educating the youth about the dangers of fentanyl. I like playing on my computer with my friends and playing my bass. I enjoy going to concerts and theme parks.</p>`,
+    bio: `<p>Destiny Quiroz is 13 years old. Destiny enjoys playing on her computer with her friends and learning how to play her bass. Destiny also enjoys trips to theme parks and concerts. At the age of 11 Destiny lost her brother Deenilson to illicit fentanyl. With this great loss, Destiny has faced many challenges but she continues showing kindness to everyone around her. She has found a new passion for educating the youth about the dangers of fentanyl. Spreading awareness of the dangers of drugs and how life-changing it can truly be to lose a loved one to fentanyl.</p>`,
   },
   {
     id: '2',
