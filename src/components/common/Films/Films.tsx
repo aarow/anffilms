@@ -13,7 +13,7 @@ function Films() {
 
   return (
     <>
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
         {filmData.map(({id, imagePath, title, Description}) => (
           <Carousel.Item key={id}>
             <img src={imagePath} title={title} className="d-block w-100" />

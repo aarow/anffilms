@@ -34,7 +34,9 @@ const filmData: Film[] = [
         <h3>The Safest Place</h3>
         <p>
           A wave of fentanyl-laced drugs makes Snapchat a game of Russian roulette, ending many young teens&apos;s lives. A growing movement of bereaved families says America values corporate profits over children&apos;s lives.</p>
-        <p>(coming soon)</p>
+        <p>
+          <a className="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=egfPrwygpbQ" target='_blank'>Watch</a>
+        </p>
       </>
     ),
   }
