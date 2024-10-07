@@ -36,7 +36,7 @@ export default function FilmPoster() {
             size="lg"
             style={{ border: "2px solid black" }}
           >
-            Download Facilitator's Guide
+            Download Facilitator&apos;s Guide
           </Button>
         </p>
 

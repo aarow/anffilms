@@ -1,6 +1,7 @@
-import { useMemo, useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import filmData from '@/data/films';
+import { useMemo, useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
+import filmData from "@/data/films";
+import Image from "next/image";
 
 function Films() {
   const [index, setIndex] = useState(0);
@@ -9,12 +10,15 @@ function Films() {
     setIndex(selectedIndex);
   };
 
-  const selectedDescription = useMemo(() => filmData[index].Description, [index]);
+  const selectedDescription = useMemo(
+    () => filmData[index].Description,
+    [index]
+  );
 
   return (
     <>
       <Carousel activeIndex={index} onSelect={handleSelect} interval={null}>
-        {filmData.map(({id, imagePath, title, Description}) => (
+        {filmData.map(({ id, imagePath, title, Description }) => (
           <Carousel.Item key={id}>
             <img src={imagePath} title={title} className="d-block w-100" />
             <Carousel.Caption>
@@ -23,9 +27,7 @@ function Films() {
           </Carousel.Item>
         ))}
       </Carousel>
-      <div>
-        {selectedDescription}
-      </div>
+      <div>{selectedDescription}</div>
     </>
   );
 }

@@ -216,7 +216,7 @@ export default function Home() {
                         target="_blank"
                         size="lg"
                       >
-                        Download Facilitator's Guide
+                        Download Facilitator&apos;s Guide
                       </Button>
                     </p>
                   </div>
