@@ -20,13 +20,26 @@ export default function FilmPoster() {
         <h1 className="display-1 filmTitle bg-black p-3 text-white">
           Come Back Home
         </h1>
-        <Button
-          size="lg"
-          onClick={() => setShow(true)}
-          style={{ border: "2px solid black" }}
-        >
-          Watch Film
-        </Button>
+        <p>
+          <Button
+            size="lg"
+            onClick={() => setShow(true)}
+            style={{ border: "2px solid black" }}
+          >
+            Watch Film
+          </Button>
+        </p>
+        <p>
+          <Button
+            href="https://drive.google.com/file/d/1AWf-QQMaLggC7TKOgSj3ktRHHI0tKRLP/view?usp=drive_link"
+            target="_blank"
+            size="lg"
+            style={{ border: "2px solid black" }}
+          >
+            Download Facilitator's Guide
+          </Button>
+        </p>
+
         <Modal show={show} fullscreen={true} data-bs-theme="dark">
           <Modal.Header className="border-0 bg-black">
             <CloseButton onClick={() => setShow(false)} />

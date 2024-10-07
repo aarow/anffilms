@@ -1,13 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
-import Image from "next/image";
-import Container from "react-bootstrap/Container";
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import AppGuides from "@/components/AppGuides";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import ExampleComponents from "@/components/ExampleComponents";
+import Button from "react-bootstrap/Button";
 import Team from "@/components/common/Team/Team";
 import cast from "@/data/cast";
 import FilmPoster from "@/components/FilmPoster";
@@ -40,13 +33,31 @@ export default function Home() {
                       A Quick Note
                     </h2>
                     <p className="text-center">
-                      <strong className="fst-italic text-white">Come Back Home</strong> is a trek through the ever growing illicit drug industry that is reshaping American life, destroying people, and changing history.
+                      <strong className="fst-italic text-white">
+                        Come Back Home
+                      </strong>{" "}
+                      is a trek through the ever growing illicit drug industry
+                      that is reshaping American life, destroying people, and
+                      changing history.
                     </p>
                     <p className="text-center">
-                      A little bit of information would have gone a long way in our home. That is why we want to prepare you and your family. This may never happen in your home, but eventually you will know someone this issue has impacted. Alexander Neville Foundation is a volunteer run organization. We provide quality, low or no cost, drug prevention and social media harms awareness presentations to schools  and  communities. To continue offering these programs and services, please consider making a donation. Thank you.
+                      A little bit of information would have gone a long way in
+                      our home. That is why we want to prepare you and your
+                      family. This may never happen in your home, but eventually
+                      you will know someone this issue has impacted. Alexander
+                      Neville Foundation is a volunteer run organization. We
+                      provide quality, low or no cost, drug prevention and
+                      social media harms awareness presentations to schools and
+                      communities. To continue offering these programs and
+                      services, please consider making a donation. Thank you.
                     </p>
                     <p className="text-center">
-                      <Link href="https://anfhelp.org/donate/" className="btn btn-primary">Donate</Link>
+                      <Link
+                        href="https://anfhelp.org/donate/"
+                        className="btn btn-primary"
+                      >
+                        Donate
+                      </Link>
                     </p>
                   </div>
                 </div>
@@ -54,7 +65,9 @@ export default function Home() {
             </section>
             <section className="film-cast bg-gray">
               <div className="container">
-                <h2 className="display-4 text-center mb-5 text-white">Youth in the Film</h2>
+                <h2 className="display-4 text-center mb-5 text-white">
+                  Youth in the Film
+                </h2>
                 <Team team={cast} />
               </div>
             </section>
@@ -65,16 +78,18 @@ export default function Home() {
                 </h2>
                 <div className="row mb-5">
                   <div className="col-lg-8 offset-lg-2 text-center">
-                    <p>These resources complement the message ANF is trying to send. These are organizations that ANF personally endorses for material in the classroom and other areas of life.</p>
+                    <p>
+                      These resources complement the message ANF is trying to
+                      send. These are organizations that ANF personally endorses
+                      for material in the classroom and other areas of life.
+                    </p>
                   </div>
                 </div>
-               
+
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
                   <div className="col">
                     <div className="card h-100 border-0">
-                      <a
-                        href="https://operationprevention.com/virtual-field-trip"
-                      >
+                      <a href="https://operationprevention.com/virtual-field-trip">
                         <div className="d-flex align-items-center h-100 w-100">
                           <img
                             src="/img/resources/ounce-of-prevention-virtual-field-trip.png"
@@ -85,7 +100,10 @@ export default function Home() {
                       </a>
                       <div className="card-body">
                         <p className="card-text lh-sm">
-                          ANF is proud to have partnered with the DEA and Discovery Education for their Virtual field trip. This education is geared specifically for classroom environments.
+                          ANF is proud to have partnered with the DEA and
+                          Discovery Education for their Virtual field trip. This
+                          education is geared specifically for classroom
+                          environments.
                         </p>
                       </div>
                     </div>
@@ -103,7 +121,10 @@ export default function Home() {
                       </a>
                       <div className="card-body">
                         <p className="card-text lh-sm">
-                          ANF is a member of the Substance Abuse Coalition Leaders of Arizona. We are thrilled to bring SACLAZ education to the San Tan Valley, Queen Creek, and Florence communities.
+                          ANF is a member of the Substance Abuse Coalition
+                          Leaders of Arizona. We are thrilled to bring SACLAZ
+                          education to the San Tan Valley, Queen Creek, and
+                          Florence communities.
                         </p>
                       </div>
                     </div>
@@ -122,7 +143,12 @@ export default function Home() {
                       </a>
                       <div className="card-body">
                         <p className="card-text lh-sm">
-                          Southeast Valley Community Alliance is a coalition serving Queen Creek, San Tan Valley, and Florence, AZ to promote community wellness and build resilience by providing mental health and substance misuse prevention resources to help youth and their families to make healthy choices.
+                          Southeast Valley Community Alliance is a coalition
+                          serving Queen Creek, San Tan Valley, and Florence, AZ
+                          to promote community wellness and build resilience by
+                          providing mental health and substance misuse
+                          prevention resources to help youth and their families
+                          to make healthy choices.
                         </p>
                       </div>
                     </div>
@@ -149,10 +175,50 @@ export default function Home() {
                     <h2 className="display-4 text-center mb-5 text-white">
                       Come Back Home
                     </h2>
-                    <p>by <span><Link href="https://dominictierno.com/"  className="text-white">Dominic Tierno</Link></span> & <span className="text-white">Christine Wood</span></p>
-                    <p>edited by <span className="text-white">Wade Sobh</span></p>
-                    <p>made possible by <span className="text-white">The O&apos;Connell Family Foundation Trust</span></p>
-                    <p>in partnership with <span className="text-white">Alexander Neville Foundation</span></p>
+                    <p>
+                      by{" "}
+                      <span>
+                        <Link
+                          href="https://dominictierno.com/"
+                          className="text-white"
+                        >
+                          Dominic Tierno
+                        </Link>
+                      </span>{" "}
+                      & <span className="text-white">Christine Wood</span>
+                    </p>
+                    <p>
+                      edited by <span className="text-white">Wade Sobh</span>
+                    </p>
+                    <p>
+                      made possible by{" "}
+                      <span className="text-white">
+                        The O&apos;Connell Family Foundation Trust
+                      </span>
+                    </p>
+                    <p>
+                      in partnership with{" "}
+                      <span className="text-white">
+                        Alexander Neville Foundation
+                      </span>
+                    </p>
+                    <h3 className="text-white mt-5">
+                      Parents and Facilitators
+                    </h3>
+                    <p>
+                      Consider integrating the information in our guide when you
+                      present <i className="fst-italic">Come Back Home</i> to
+                      children.
+                    </p>
+                    <p>
+                      <Button
+                        href="https://drive.google.com/file/d/1AWf-QQMaLggC7TKOgSj3ktRHHI0tKRLP/view?usp=drive_link"
+                        target="_blank"
+                        size="lg"
+                      >
+                        Download Facilitator's Guide
+                      </Button>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -166,10 +232,20 @@ export default function Home() {
                 <div className="col-lg-8 offset-lg-2 text-center">
                   <h2 className="mb-5 text-center text-white">Contact Us</h2>
                   <ul className="list-unstyled">
-                    <li><a href="mailto:info@anfhelp.org">info@anfhelp.org</a></li>
-                    <li><a href="https://www.instagram.com/anfhelp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
-                    <li><a href="https://www.facebook.com/ANFHELP">Facebook</a></li>
-                    <li><a href="https://x.com/ANFHelp?s=20">X</a></li>
+                    <li>
+                      <a href="mailto:info@anfhelp.org">info@anfhelp.org</a>
+                    </li>
+                    <li>
+                      <a href="https://www.instagram.com/anfhelp?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        Instagram
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.facebook.com/ANFHELP">Facebook</a>
+                    </li>
+                    <li>
+                      <a href="https://x.com/ANFHelp?s=20">X</a>
+                    </li>
                   </ul>
                 </div>
               </div>
